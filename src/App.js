@@ -1,10 +1,10 @@
+import Counter from './features/counter/counter';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        React is Working
-      </header>
-    </div>
+   <main className="App">
+    <Counter />
+   </main>
   );
 }
 
